@@ -8,7 +8,7 @@ df2 = pd.read_excel("P:/PartTimers/DuyNguyen/Python Practice/pythonpractice/unit
 
 
 
-def Input_dataframes(df1,df2,mergingcolumns):
+def compare_dataframes(df1,df2,mergingcolumns):
     #df1 is the fist dataframe, df2 is the second dataframe, mergingcolumns: the columns we are gonna merge them on
     # mergingcolumns must be a list
     #Check to make sure the names of the columns are the same
@@ -73,4 +73,4 @@ def Input_dataframes(df1,df2,mergingcolumns):
     #merged.to_excel('P:\PartTimers\DuyNguyen\Python Practice\pythonpractice\SOmethingtosee.xlsx')
    
             
-Input_dataframes(df1,df2,['stationid','fishspecies'])
+compare_dataframes(df1,df2,['stationid','fishspecies'])
