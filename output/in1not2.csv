@@ -1,0 +1,9 @@
+,stationid,sampleid,samplingorganization,trawlnumber,invertspecies,abundancequalifier_x,abundance_x,anomaly_x,diversityindexexclude_x,comments_x,record_exists_x,abundancequalifier_y,abundance_y,anomaly_y,diversityindexexclude_y,comments_y,record_exists_y
+0,B18-10220,none,Orange County Sanitation District,1,Cymothoidae,none,1.0,none,no,,True,,,,,,
+8,B18-10222,none,Orange County Sanitation District,1,Crangon nigromaculata,none,36.0,none,no,QC,True,,,,,,
+25,B18-10225,none,Orange County Sanitation District,1,Cymothoidae,none,1.0,none,no,,True,,,,,,
+37,B18-10226,none,Orange County Sanitation District,1,Cymothoidae,none,,none,no,,True,,,,,,
+80,B18-10260,none,Orange County Sanitation District,1,Ericerodes hemphillii,none,2.0,none,no,check for voucher,True,,,,,,
+81,B18-10260,none,Orange County Sanitation District,1,Nudibranchia,none,1.0,none,no,,True,,,,,,
+149,B18-10973,none,Orange County Sanitation District,1,Octopus californicus,none,8.0,none,no,,True,,,,,,
+186,B18-10345,none,Orange County Sanitation District,1,Bispira sp,none,14.0,none,no,Ex.= Yes,True,,,,,,

@@ -1,0 +1,198 @@
+,stationid,sampleid,samplingorganization,trawlnumber,invertspecies,abundancequalifier_1,abundance_1,anomaly_1,diversityindexexclude_1,comments_1,abundancequalifier_2,abundance_2,anomaly_2,diversityindexexclude_2,comments_2,abundancequalifier Check,abundance Check,anomaly Check,diversityindexexclude Check,comments Check
+0,B18-10220,none,Orange County Sanitation District,1,Astropecten armatus,none,1.0,none,no,,none,1.0,none,no,,True,True,True,True,True
+1,B18-10220,none,Orange County Sanitation District,1,Bulla gouldiana,none,1.0,none,no,"SAMPLE,V-1",none,1.0,none,no,"SAMPLE,V-1",True,True,True,True,True
+2,B18-10220,none,Orange County Sanitation District,1,Farfantepenaeus californiensis,none,1.0,none,no,"SAMPLE,V-1",none,1.0,none,no,"SAMPLE,V-1",True,True,True,True,True
+3,B18-10220,none,Orange County Sanitation District,1,Pyromaia tuberculata,none,1.0,none,no,"SAMPLE,V-1",none,1.0,none,no,"SAMPLE,V-1",True,True,True,True,True
+4,B18-10222,none,Orange County Sanitation District,1,Cymothoidae,none,1.0,none,no,,none,1.0,none,no,,True,True,True,True,True
+5,B18-10222,none,Orange County Sanitation District,1,Portunus xantusii,none,13.0,none,no,QC,none,13.0,none,no,,True,True,True,True,False
+6,B18-10222,none,Orange County Sanitation District,1,Loxorhynchus crispatus,none,1.0,none,no,"SAMPLE,V-1 photo taken",none,1.0,none,no,"PHOTO,V-1",True,True,True,True,False
+7,B18-10222,none,Orange County Sanitation District,1,Metacarcinus gracilis,none,3.0,none,no,,none,3.0,none,no,,True,True,True,True,True
+8,B18-10222,none,Orange County Sanitation District,1,Astropecten californicus,none,1.0,none,no,,none,1.0,none,no,,True,True,True,True,True
+9,B18-10222,none,Orange County Sanitation District,1,Astropecten sp,none,1.0,none,no,juvenile Ex.=Yes,none,1.0,none,no,,True,True,True,True,False
+10,B18-10222,none,Orange County Sanitation District,1,Stylatula elongata,none,1.0,none,no,,none,1.0,none,no,,True,True,True,True,True
+11,B18-10222,none,Orange County Sanitation District,1,Latulambrus occidentalis,none,1.0,none,no,"SAMPLE,V-1",none,1.0,none,no,"SAMPLE,V-1",True,True,True,True,True
+12,B18-10222,none,Orange County Sanitation District,1,Pagurus spilocarpus,none,1.0,none,no,"SAMPLE,V-1",none,1.0,none,no,"SAMPLE,V-1",True,True,True,True,True
+13,B18-10222,none,Orange County Sanitation District,1,Pyromaia tuberculata,none,6.0,none,no,,none,6.0,none,no,,True,True,True,True,True
+14,B18-10223,none,Orange County Sanitation District,1,Sicyonia penicillata,none,92.0,none,no,"SAMPLE,V-1 QC",none,92.0,none,no,"SAMPLE,V-1 QC",True,True,True,True,True
+15,B18-10223,none,Orange County Sanitation District,1,Metacarcinus gracilis,none,4.0,none,no,,none,4.0,none,no,,True,True,True,True,True
+16,B18-10223,none,Orange County Sanitation District,1,Astropecten armatus,none,1.0,none,no,,none,1.0,none,no,,True,True,True,True,True
+17,B18-10223,none,Orange County Sanitation District,1,Crangon nigromaculata,none,32.0,none,no,QC,none,32.0,none,no,,True,True,True,True,False
+18,B18-10223,none,Orange County Sanitation District,1,Randallia ornata,none,1.0,none,no,,none,1.0,none,no,,True,True,True,True,True
+19,B18-10225,none,Orange County Sanitation District,1,Hamatoscalpellum californicum,none,1.0,none,no,,none,1.0,none,no,,True,True,True,True,True
+20,B18-10225,none,Orange County Sanitation District,1,Astropecten armatus,none,1.0,none,no,"SAMPLE,V-1",none,1.0,none,no,"SAMPLE,V-1",True,True,True,True,True
+21,B18-10225,none,Orange County Sanitation District,1,Randallia ornata,none,1.0,O,no,"SAMPLE,V-1 photo taken Covered with acorn barnacles",none,1.0,none,no,"PHOTO,V-1 covered w/ acorn barnacles",True,True,False,True,False
+22,B18-10225,none,Orange County Sanitation District,1,Armina californica,none,1.0,none,no,"SAMPLE,V-1",none,1.0,none,no,"SAMPLE,V-1",True,True,True,True,True
+23,B18-10225,none,Orange County Sanitation District,1,Pleurobranchaea californica,none,1.0,none,no,,none,1.0,none,no,,True,True,True,True,True
+24,B18-10225,none,Orange County Sanitation District,1,Astropecten californicus,none,11.0,none,no,,none,11.0,none,no,,True,True,True,True,True
+25,B18-10225,none,Orange County Sanitation District,1,Astropecten sp,none,1.0,none,no,Ex.=Yes,none,1.0,none,no,,True,True,True,True,False
+26,B18-10225,none,Orange County Sanitation District,1,Ophiothrix spiculata,none,2.0,none,no,,none,2.0,none,no,,True,True,True,True,True
+27,B18-10225,none,Orange County Sanitation District,1,Stylatula elongata,none,1.0,none,no,,none,1.0,none,no,,True,True,True,True,True
+28,B18-10225,none,Orange County Sanitation District,1,Pyromaia tuberculata,none,2.0,none,no,,none,2.0,none,no,,True,True,True,True,True
+29,B18-10225,none,Orange County Sanitation District,1,Melanochlamys diomedea,none,1.0,none,no,"SAMPLE,V-1 photo taken",none,1.0,none,no,"PHOTO,V-1",True,True,True,True,False
+30,B18-10226,none,Orange County Sanitation District,1,Hamatoscalpellum californicum,none,1.0,none,no,,none,1.0,none,no,,True,True,True,True,True
+31,B18-10226,none,Orange County Sanitation District,1,Luidia armata,none,1.0,none,no,,none,1.0,none,no,,True,True,True,True,True
+32,B18-10226,none,Orange County Sanitation District,1,Astropecten californicus,none,28.0,none,no,,none,28.0,none,no,,True,True,True,True,True
+33,B18-10226,none,Orange County Sanitation District,1,Luidia sp,none,1.0,none,no,Ex.=Yes,none,1.0,none,no,,True,True,True,True,False
+34,B18-10226,none,Orange County Sanitation District,1,Paguristes bakeri,none,2.0,none,no,"SAMPLE,V-1 OC-1",none,2.0,none,no,"SAMPLE,V-1 OC-1",True,True,True,True,True
+35,B18-10227,none,Orange County Sanitation District,1,Sicyonia penicillata,none,20.0,none,no,,none,20.0,none,no,,True,True,True,True,True
+36,B18-10227,none,Orange County Sanitation District,1,Crangon nigromaculata,none,3.0,none,no,"SAMPLE,V-3",none,3.0,none,no,"SAMPLE,V-3",True,True,True,True,True
+37,B18-10227,none,Orange County Sanitation District,1,Astropecten californicus,none,3.0,none,no,,none,3.0,none,no,,True,True,True,True,True
+38,B18-10227,none,Orange County Sanitation District,1,Portunus xantusii,none,1.0,none,no,"SAMPLE,V-1",none,1.0,none,no,"SAMPLE,V-1",True,True,True,True,True
+39,B18-10227,none,Orange County Sanitation District,1,Flabellinopsis iodinea,none,1.0,none,no,"SAMPLE,V-1 photo taken",none,1.0,none,no,"PHOTO,V-1",True,True,True,True,False
+40,B18-10228,none,Orange County Sanitation District,2,Cymothoidae,none,1.0,none,no,,none,1.0,none,no,,True,True,True,True,True
+41,B18-10228,none,Orange County Sanitation District,2,Stylatula elongata,none,1.0,none,no,"SAMPLE,V-1",none,1.0,none,no,"SAMPLE,V-1",True,True,True,True,True
+42,B18-10228,none,Orange County Sanitation District,2,Lytechinus pictus,none,39.0,none,no,"SAMPLE,V-3",none,39.0,none,no,"SAMPLE,V-3",True,True,True,True,True
+43,B18-10228,none,Orange County Sanitation District,2,Philine auriformis,none,5.0,none,no,"SAMPLE,V-4",none,5.0,none,no,"SAMPLE,V-4",True,True,True,True,True
+44,B18-10228,none,Orange County Sanitation District,2,Luidia armata,none,3.0,none,no,"SAMPLE,V-1",none,3.0,none,no,"SAMPLE,V-1",True,True,True,True,True
+45,B18-10228,none,Orange County Sanitation District,2,Dendraster terminalis,none,1.0,none,no,"SAMPLE,V-1",none,1.0,none,no,"SAMPLE,V-1",True,True,True,True,True
+46,B18-10228,none,Orange County Sanitation District,2,Astropecten californicus,none,5.0,none,no,"SAMPLE,V-2",none,5.0,none,no,"SAMPLE,V-2",True,True,True,True,True
+47,B18-10228,none,Orange County Sanitation District,2,Astropecten sp,none,2.0,none,no,juveniles Ex.=Yes,none,2.0,none,no,,True,True,True,True,False
+48,B18-10228,none,Orange County Sanitation District,2,Heterogorgia tortuosa,none,1.0,none,no,"SAMPLE,V-1",none,1.0,none,no,"SAMPLE,V-1",True,True,True,True,True
+49,B18-10258,none,Orange County Sanitation District,1,Cymothoidae,none,1.0,none,no,,none,1.0,none,no,,True,True,True,True,True
+50,B18-10258,none,Orange County Sanitation District,1,Metacarcinus gracilis,none,1.0,none,no,"SAMPLE,V-1",none,1.0,none,no,"SAMPLE,V-1",True,True,True,True,True
+51,B18-10258,none,Orange County Sanitation District,1,Astropecten californicus,none,10.0,none,no,,none,10.0,none,no,,True,True,True,True,True
+52,B18-10258,none,Orange County Sanitation District,1,Ophiothrix spiculata,none,1.0,none,no,,none,1.0,none,no,,True,True,True,True,True
+53,B18-10258,none,Orange County Sanitation District,1,Astropecten sp,none,3.0,none,no,Ex.=Yes,none,3.0,none,no,,True,True,True,True,False
+54,B18-10258,none,Orange County Sanitation District,1,Lytechinus pictus,none,1.0,none,no,,none,1.0,none,no,,True,True,True,True,True
+55,B18-10258,none,Orange County Sanitation District,1,Philine auriformis,none,1.0,none,no,,none,1.0,none,no,,True,True,True,True,True
+56,B18-10258,none,Orange County Sanitation District,1,Crangon nigromaculata,none,1.0,none,no,,none,1.0,none,no,,True,True,True,True,True
+57,B18-10260,none,Orange County Sanitation District,1,Hamatoscalpellum californicum,none,5.0,none,no,"SAMPLE,V-5",none,5.0,none,no,"SAMPLE,V-5",True,True,True,True,True
+58,B18-10260,none,Orange County Sanitation District,1,Thesea sp B,none,20.0,none,no,"SAMPLE,V-3",none,20.0,none,no,"SAMPLE,V-3",True,True,True,True,True
+59,B18-10260,none,Orange County Sanitation District,1,Ophiura luetkenii,none,18.0,none,no,"SAMPLE,V-2",none,18.0,none,no,"SAMPLE,V-2",True,True,True,True,True
+60,B18-10260,none,Orange County Sanitation District,1,Sicyonia penicillata,none,1.0,none,no,"SAMPLE,V-1",none,1.0,none,no,"SAMPLE,V-1",True,True,True,True,True
+61,B18-10260,none,Orange County Sanitation District,1,Platymera gaudichaudii,none,1.0,none,no,PHOTO,none,1.0,none,no,"PHOTO,V-1",True,True,True,True,False
+62,B18-10260,none,Orange County Sanitation District,1,Lytechinus pictus,none,137.0,none,no,,none,137.0,none,no,,True,True,True,True,True
+63,B18-10260,none,Orange County Sanitation District,1,Astropecten californicus,none,5.0,none,no,,none,5.0,none,no,,True,True,True,True,True
+64,B18-10260,none,Orange County Sanitation District,1,Ophiothrix spiculata,none,12.0,none,no,"SAMPLE,V-2",none,12.0,none,no,"SAMPLE,V-2",True,True,True,True,True
+65,B18-10260,none,Orange County Sanitation District,1,Astropecten sp,none,1.0,none,no,juvenile Ex.=Yes,none,1.0,none,no,,True,True,True,True,False
+66,B18-10260,none,Orange County Sanitation District,1,Luidia sp,none,1.0,none,no,juvenile,none,1.0,none,no,,True,True,True,True,False
+67,B18-10260,none,Orange County Sanitation District,1,Heterogorgia tortuosa,none,1.0,none,no,,none,1.0,none,no,,True,True,True,True,True
+68,B18-10260,none,Orange County Sanitation District,1,Sicyonia ingentis,none,6.0,none,no,"SAMPLE,V-6",none,6.0,none,no,"SAMPLE,V-6",True,True,True,True,True
+69,B18-10260,none,Orange County Sanitation District,1,Philine auriformis,none,22.0,none,no,,none,22.0,none,no,,True,True,True,True,True
+70,B18-10260,none,Orange County Sanitation District,1,Pleurobranchaea californica,none,3.0,none,no,"SAMPLE,V-3",none,3.0,none,no,"SAMPLE,V-3",True,True,True,True,True
+71,B18-10260,none,Orange County Sanitation District,1,Orthopagurus minimus,none,1.0,none,no,still needs voucher,none,1.0,none,no,,True,True,True,True,False
+72,B18-10260,none,Orange County Sanitation District,1,Pyromaia tuberculata,none,3.0,none,no,,none,3.0,none,no,,True,True,True,True,True
+73,B18-10262,none,Orange County Sanitation District,1,Hamatoscalpellum californicum,none,4.0,none,no,,none,4.0,none,no,,True,True,True,True,True
+74,B18-10262,none,Orange County Sanitation District,1,Thesea sp B,none,4.0,none,no,,none,8.0,none,no,,True,False,True,True,True
+75,B18-10262,none,Orange County Sanitation District,1,Ophiura luetkenii,none,843.0,none,no,count by aliquot method,none,843.0,none,no,,True,True,True,True,False
+76,B18-10262,none,Orange County Sanitation District,1,Sicyonia ingentis,none,1.0,none,no,,none,1.0,none,no,,True,True,True,True,True
+77,B18-10262,none,Orange County Sanitation District,1,Lytechinus pictus,none,105.0,none,no,,none,105.0,none,no,,True,True,True,True,True
+78,B18-10262,none,Orange County Sanitation District,1,Pleurobranchaea californica,none,2.0,none,no,,none,2.0,none,no,,True,True,True,True,True
+79,B18-10262,none,Orange County Sanitation District,1,Luidia asthenosoma,none,1.0,none,no,"SAMPLE,V-1",none,1.0,none,no,"SAMPLE,V-1",True,True,True,True,True
+80,B18-10262,none,Orange County Sanitation District,1,Astropecten sp,none,1.0,none,no,,none,1.0,none,no,,True,True,True,True,True
+81,B18-10262,none,Orange County Sanitation District,1,Philine auriformis,none,6.0,none,no,,none,6.0,none,no,,True,True,True,True,True
+82,B18-10262,none,Orange County Sanitation District,1,Orthopagurus minimus,none,3.0,none,no,"SAMPLE,V-2",none,3.0,none,no,"SAMPLE,V-2",True,True,True,True,True
+83,B18-10313,none,Orange County Sanitation District,1,Sicyonia ingentis,none,36.0,none,no,,none,36.0,none,no,,True,True,True,True,True
+84,B18-10313,none,Orange County Sanitation District,1,Cymothoidae,none,1.0,none,no,,none,1.0,none,no,,True,True,True,True,True
+85,B18-10313,none,Orange County Sanitation District,1,Pleurobranchaea californica,none,4.0,none,no,,none,4.0,none,no,,True,True,True,True,True
+86,B18-10313,none,Orange County Sanitation District,1,Astropecten californicus,none,2.0,none,no,,none,2.0,none,no,,True,True,True,True,True
+87,B18-10313,none,Orange County Sanitation District,1,Strongylocentrotus fragilis,none,52.0,none,no,"SAMPLE,V-2",none,52.0,none,no,"SAMPLE,V-2",True,True,True,True,True
+88,B18-10313,none,Orange County Sanitation District,1,Apostichopus californicus,none,1.0,none,no,"SAMPLE,V-1 photo taken",none,1.0,none,no,"PHOTO,V-1",True,True,True,True,False
+89,B18-10313,none,Orange County Sanitation District,1,Lytechinus pictus,none,4.0,none,no,,none,4.0,none,no,,True,True,True,True,True
+90,B18-10867,none,Orange County Sanitation District,1,Sicyonia penicillata,none,3.0,none,no,,none,3.0,none,no,,True,True,True,True,True
+91,B18-10867,none,Orange County Sanitation District,1,Cymothoidae,none,1.0,none,no,,none,1.0,none,no,,True,True,True,True,True
+92,B18-10867,none,Orange County Sanitation District,1,Crangon nigromaculata,none,1.0,none,no,,none,1.0,none,no,,True,True,True,True,True
+93,B18-10867,none,Orange County Sanitation District,1,Astropecten californicus,none,2.0,none,no,,none,2.0,none,no,,True,True,True,True,True
+94,B18-10867,none,Orange County Sanitation District,1,Portunus xantusii,none,12.0,none,no,,none,12.0,none,no,,True,True,True,True,True
+95,B18-10913,none,Orange County Sanitation District,1,Cymothoidae,none,1.0,none,no,,none,,none,no,,True,False,True,True,True
+96,B18-10913,none,Orange County Sanitation District,1,Luidia armata,none,2.0,none,no,,none,2.0,none,no,,True,True,True,True,True
+97,B18-10913,none,Orange County Sanitation District,1,Astropecten californicus,none,2.0,none,no,,none,2.0,none,no,,True,True,True,True,True
+98,B18-10913,none,Orange County Sanitation District,1,Lytechinus pictus,none,173.0,none,no,,none,173.0,none,no,,True,True,True,True,True
+99,B18-10913,none,Orange County Sanitation District,1,Ophiothrix spiculata,none,6.0,none,no,,none,6.0,none,no,,True,True,True,True,True
+100,B18-10913,none,Orange County Sanitation District,1,Pteropurpura vokesae,none,1.0,none,no,"SAMPLE,V-1",none,1.0,none,no,"SAMPLE,V-1",True,True,True,True,True
+101,B18-10913,none,Orange County Sanitation District,1,Ericerodes hemphillii,none,2.0,none,no,"SAMPLE,V-1",none,2.0,none,no,"SAMPLE,V-2",True,True,True,True,False
+102,B18-10913,none,Orange County Sanitation District,1,Pyromaia tuberculata,none,5.0,none,no,,none,5.0,none,no,,True,True,True,True,True
+103,B18-10913,none,Orange County Sanitation District,1,Pugettia dalli,none,3.0,none,no,"SAMPLE,V-1",none,3.0,none,no,"SAMPLE,V-2",True,True,True,True,False
+104,B18-10913,none,Orange County Sanitation District,1,Paguristes ulreyi,none,3.0,none,no,"SAMPLE,V-1",none,3.0,none,no,"SAMPLE,V-1",True,True,True,True,True
+105,B18-10915,none,Orange County Sanitation District,1,Sicyonia ingentis,none,813.0,none,no,count by aliquot method,none,813.0,none,no,,True,True,True,True,False
+106,B18-10915,none,Orange County Sanitation District,1,Cymothoidae,none,1.0,none,no,,none,1.0,none,no,,True,True,True,True,True
+107,B18-10915,none,Orange County Sanitation District,1,Rossia pacifica,none,3.0,none,no,"SAMPLE,V-3",none,3.0,none,no,"SAMPLE,V-3",True,True,True,True,True
+108,B18-10915,none,Orange County Sanitation District,1,Luidia foliolata,none,7.0,none,no,,none,7.0,none,no,,True,True,True,True,True
+109,B18-10915,none,Orange County Sanitation District,1,Pleurobranchaea californica,none,2.0,none,no,"SAMPLE,V-1",none,2.0,none,no,"SAMPLE,V-1",True,True,True,True,True
+110,B18-10915,none,Orange County Sanitation District,1,Astropecten californicus,none,1.0,none,no,,none,1.0,none,no,,True,True,True,True,True
+111,B18-10915,none,Orange County Sanitation District,1,Octopus rubescens,none,1.0,none,no,"SAMPLE,V-1",none,1.0,none,no,"SAMPLE,V-1",True,True,True,True,True
+112,B18-10915,none,Orange County Sanitation District,1,Neocrangon zacae,none,1.0,none,no,,none,1.0,none,no,,True,True,True,True,True
+113,B18-10915,none,Orange County Sanitation District,1,Metacrangon spinosissima,none,1.0,none,no,,none,1.0,none,no,,True,True,True,True,True
+114,B18-10344,none,Orange County Sanitation District,2,Sicyonia ingentis,none,2.0,none,no,,none,2.0,none,no,,True,True,True,True,True
+115,B18-10344,none,Orange County Sanitation District,2,Cymothoidae,none,1.0,none,no,,none,1.0,none,no,,True,True,True,True,True
+116,B18-10344,none,Orange County Sanitation District,2,Strongylocentrotus fragilis,none,589.0,none,no,count by aliquot method,none,589.0,none,no,,True,True,True,True,False
+117,B18-10344,none,Orange County Sanitation District,2,Spatangus californicus,none,5.0,none,no,"SAMPLE,V-1",none,5.0,none,no,"SAMPLE,V-1",True,True,True,True,True
+118,B18-10344,none,Orange County Sanitation District,2,Luidia foliolata,none,3.0,none,no,,none,3.0,none,no,,True,True,True,True,True
+119,B18-10344,none,Orange County Sanitation District,2,Octopus californicus,none,1.0,none,no,"SAMPLE,V-1",none,1.0,none,no,"SAMPLE,V-1",True,True,True,True,True
+120,B18-10344,none,Orange County Sanitation District,2,Pleurobranchaea californica,none,1.0,none,no,,none,1.0,none,no,,True,True,True,True,True
+121,B18-10344,none,Orange County Sanitation District,2,Apostichopus sp A,none,1.0,none,no,"SAMPLE,V-1",none,1.0,none,no,"SAMPLE,V-1",True,True,True,True,True
+122,B18-10344,none,Orange County Sanitation District,2,Spirontocaris holmesi,none,1.0,none,no,,none,1.0,none,no,,True,True,True,True,True
+123,B18-10344,none,Orange County Sanitation District,2,Neocrangon resima,none,5.0,none,no,,none,5.0,none,no,,True,True,True,True,True
+124,B18-10344,none,Orange County Sanitation District,2,Neocrangon zacae,none,31.0,none,no,,none,31.0,none,no,,True,True,True,True,True
+125,B18-10344,none,Orange County Sanitation District,2,Brissopsis pacifica,none,10.0,none,no,,none,10.0,none,no,,True,True,True,True,True
+126,B18-10344,none,Orange County Sanitation District,2,Brisaster sp,none,4.0,none,no,Ex.=Yes,none,4.0,none,no,,True,True,True,True,False
+127,B18-10344,none,Orange County Sanitation District,2,Brisaster latifrons,none,4.0,none,no,,none,4.0,none,no,,True,True,True,True,True
+128,B18-10346,none,Orange County Sanitation District,1,Sicyonia ingentis,none,1.0,none,no,,none,1.0,none,no,,True,True,True,True,True
+129,B18-10346,none,Orange County Sanitation District,1,Strongylocentrotus fragilis,none,303.0,none,no,,none,303.0,none,no,,True,True,True,True,True
+130,B18-10346,none,Orange County Sanitation District,1,Holmesiella anomala,none,3.0,none,no,V-1 OC-1,none,3.0,none,no,"SAMPLE,V-1 OC-1",True,True,True,True,False
+131,B18-10346,none,Orange County Sanitation District,1,Pleuroncodes planipes,none,3.0,none,no,,none,3.0,none,no,,True,True,True,True,True
+132,B18-10346,none,Orange County Sanitation District,1,Neocrangon resima,none,1.0,none,no,"SAMPLE,V-1",none,1.0,none,no,"SAMPLE,V-1",True,True,True,True,True
+133,B18-10346,none,Orange County Sanitation District,1,Spirontocaris sica,none,3.0,none,no,"SAMPLE,V-1",none,3.0,none,no,"SAMPLE,V-1",True,True,True,True,True
+134,B18-10346,none,Orange County Sanitation District,1,Brisaster townsendi,none,22.0,none,no,,none,22.0,none,no,,True,True,True,True,True
+135,B18-10346,none,Orange County Sanitation District,1,Brissopsis sp LA1,none,72.0,none,no,proportional count weight based on 30 spm. Brissopsis spp positively IDed,none,72.0,none,no,,True,True,True,True,False
+136,B18-10346,none,Orange County Sanitation District,1,Brissopsis pacifica,none,54.0,none,no,proportional count weight based on 30 spm. Brissopsis spp positively IDed,none,54.0,none,no,,True,True,True,True,False
+137,B18-10973,none,Orange County Sanitation District,1,Sicyonia ingentis,none,242.0,none,no,,none,242.0,none,no,,True,True,True,True,True
+138,B18-10973,none,Orange County Sanitation District,1,Pleurobranchaea californica,none,1.0,none,no,,none,1.0,none,no,,True,True,True,True,True
+139,B18-10973,none,Orange County Sanitation District,1,Strongylocentrotus fragilis,none,67.0,none,no,,none,67.0,none,no,,True,True,True,True,True
+140,B18-10973,none,Orange County Sanitation District,1,Rossia pacifica,none,16.0,none,no,,none,16.0,none,no,,True,True,True,True,True
+141,B18-10973,none,Orange County Sanitation District,1,Luidia foliolata,none,2.0,none,no,,none,2.0,none,no,,True,True,True,True,True
+142,B18-10973,none,Orange County Sanitation District,1,Doryteuthis opalescens,none,3.0,none,no,,none,3.0,none,no,,True,True,True,True,True
+143,B18-10973,none,Orange County Sanitation District,1,Pandalus platyceros,none,4.0,none,no,,none,4.0,none,no,,True,True,True,True,True
+144,B18-10973,none,Orange County Sanitation District,1,Pleuroncodes planipes,none,12.0,none,no,,none,12.0,none,no,,True,True,True,True,True
+145,B18-10973,none,Orange County Sanitation District,1,Metacrangon spinosissima,none,3.0,none,no,"SAMPLE,V-1",none,3.0,none,no,"SAMPLE,V-1",True,True,True,True,True
+146,B18-10973,none,Orange County Sanitation District,1,Solenocera mutator,none,1.0,none,no,"SAMPLE,V-1",none,1.0,none,no,"SAMPLE,V-1",True,True,True,True,True
+147,B18-10973,none,Orange County Sanitation District,1,Neocrangon zacae,none,39.0,none,no,,none,39.0,none,no,,True,True,True,True,True
+148,B18-10973,none,Orange County Sanitation District,1,Spirontocaris holmesi,none,118.0,none,no,,none,118.0,none,no,"SAMPLE,V-4",True,True,True,True,False
+149,B18-10973,none,Orange County Sanitation District,1,Brisaster latifrons,none,2.0,none,no,,none,2.0,none,no,,True,True,True,True,True
+150,B18-10314,none,Orange County Sanitation District,1,Sicyonia ingentis,none,113.0,none,no,,none,113.0,none,no,,True,True,True,True,True
+151,B18-10314,none,Orange County Sanitation District,1,Pleuroncodes planipes,none,903.0,none,no,count by aliquot method,none,903.0,none,no,"SAMPLE,V-1 see indiv. weight below",True,True,True,True,False
+152,B18-10314,none,Orange County Sanitation District,1,Strongylocentrotus fragilis,none,275.0,none,no,,none,275.0,none,no,,True,True,True,True,True
+153,B18-10314,none,Orange County Sanitation District,1,Lytechinus pictus,none,4.0,none,no,,none,4.0,none,no,,True,True,True,True,True
+154,B18-10314,none,Orange County Sanitation District,1,Luidia foliolata,none,1.0,none,no,,none,1.0,none,no,,True,True,True,True,True
+155,B18-10314,none,Orange County Sanitation District,1,Octopus rubescens,none,2.0,none,no,,none,2.0,none,no,,True,True,True,True,True
+156,B18-10314,none,Orange County Sanitation District,1,Rossia pacifica,none,1.0,none,no,,none,1.0,none,no,,True,True,True,True,True
+157,B18-10314,none,Orange County Sanitation District,1,Pandalus platyceros,none,75.0,none,no,"SAMPLE,V-3",none,75.0,none,no,"SAMPLE,V-3",True,True,True,True,True
+158,B18-10314,none,Orange County Sanitation District,1,Spatangus californicus,none,1.0,none,no,,none,1.0,none,no,,True,True,True,True,True
+159,B18-10314,none,Orange County Sanitation District,1,Solenocera mutator,none,1.0,none,no,,none,1.0,none,no,,True,True,True,True,True
+160,B18-10314,none,Orange County Sanitation District,1,Paguristes turgidus,none,1.0,none,no,"SAMPLE,V-1",none,1.0,none,no,"SAMPLE,V-1",True,True,True,True,True
+161,B18-10314,none,Orange County Sanitation District,1,Brisaster latifrons,none,8.0,none,no,,none,8.0,none,no,,True,True,True,True,True
+162,B18-10314,none,Orange County Sanitation District,1,Brissopsis pacifica,none,10.0,none,no,,none,10.0,none,no,,True,True,True,True,True
+163,B18-10345,none,Orange County Sanitation District,1,Cymothoidae,none,1.0,none,no,,none,1.0,none,no,,True,True,True,True,True
+164,B18-10345,none,Orange County Sanitation District,1,Stylasterias forreri,none,1.0,none,no,PHOTO,none,1.0,none,no,"PHOTO,V-1",True,True,True,True,False
+165,B18-10345,none,Orange County Sanitation District,1,Pleuroncodes planipes,none,6.0,none,no,,none,6.0,none,no,,True,True,True,True,True
+166,B18-10345,none,Orange County Sanitation District,1,Octopus californicus,none,1.0,none,no,,none,1.0,none,no,,True,True,True,True,True
+167,B18-10345,none,Orange County Sanitation District,1,Pandalus platyceros,none,10.0,none,no,,none,10.0,none,no,,True,True,True,True,True
+168,B18-10345,none,Orange County Sanitation District,1,Paralithodes californiensis,none,1.0,none,no,PHOTO,none,1.0,none,no,"PHOTO,V-1",True,True,True,True,False
+169,B18-10345,none,Orange County Sanitation District,1,Pleurobranchaea californica,none,2.0,none,no,,none,2.0,none,no,,True,True,True,True,True
+170,B18-10345,none,Orange County Sanitation District,1,Strongylocentrotus fragilis,none,672.0,none,no,count by aliquot,none,672.0,none,no,,True,True,True,True,False
+171,B18-10345,none,Orange County Sanitation District,1,Spirontocaris holmesi,none,4.0,none,no,,none,4.0,none,no,,True,True,True,True,True
+172,B18-10345,none,Orange County Sanitation District,1,Spirontocaris sp,none,1.0,none,no,rostrum broken Ex.=Yes,none,1.0,none,no,,True,True,True,True,False
+173,B18-10345,none,Orange County Sanitation District,1,Neocrangon resima,none,9.0,none,no,,none,9.0,none,no,,True,True,True,True,True
+174,B18-10345,none,Orange County Sanitation District,1,Neocrangon zacae,none,18.0,none,no,,none,18.0,none,no,,True,True,True,True,True
+175,B18-10345,none,Orange County Sanitation District,1,Brisaster latifrons,none,3.0,none,no,,none,3.0,none,no,,True,True,True,True,True
+176,B18-10345,none,Orange County Sanitation District,1,Brisaster townsendi,none,2.0,none,no,,none,2.0,none,no,,True,True,True,True,True
+177,B18-10345,none,Orange County Sanitation District,1,Brissopsis sp,none,2.0,none,no,Ex.=Yes,none,2.0,none,no,,True,True,True,True,False
+178,B18-10345,none,Orange County Sanitation District,1,Brissopsis pacifica,none,18.0,none,no,,none,18.0,none,no,,True,True,True,True,True
+179,B18-10862,none,Orange County Sanitation District,1,Astropecten californicus,none,2.0,none,no,,none,2.0,none,no,,True,True,True,True,True
+180,B18-10862,none,Orange County Sanitation District,1,Ophiothrix spiculata,none,2.0,none,no,,none,2.0,none,no,,True,True,True,True,True
+181,B18-10862,none,Orange County Sanitation District,1,Lytechinus pictus,none,1.0,none,no,,none,1.0,none,no,,True,True,True,True,True
+182,B18-10862,none,Orange County Sanitation District,1,Latulambrus occidentalis,none,1.0,none,no,"SAMPLE,V-1",none,1.0,none,no,"SAMPLE,V-1",True,True,True,True,True
+183,B18-10862,none,Orange County Sanitation District,1,Astropecten sp,none,10.0,none,no,Ex.=Yes,none,10.0,none,no,"SAMPLE,Ex.=Yes",True,True,True,True,False
+184,B18-10862,none,Orange County Sanitation District,1,Armina californica,none,1.0,none,no,,none,1.0,none,no,,True,True,True,True,True
+185,B18-10862,none,Orange County Sanitation District,1,Dendraster terminalis,none,1.0,none,no,,none,1.0,none,no,,True,True,True,True,True
+186,B18-10914,none,Orange County Sanitation District,1,Hamatoscalpellum californicum,none,18.0,none,no,,none,18.0,none,no,,True,True,True,True,True
+187,B18-10914,none,Orange County Sanitation District,1,Thesea sp B,none,2.0,none,no,,none,2.0,none,no,,True,True,True,True,True
+188,B18-10914,none,Orange County Sanitation District,1,Ophiura luetkenii,none,624.0,none,no,count by aliquot method,none,624.0,none,no,,True,True,True,True,False
+189,B18-10914,none,Orange County Sanitation District,1,Sicyonia ingentis,none,1.0,none,no,,none,1.0,none,no,,True,True,True,True,True
+190,B18-10914,none,Orange County Sanitation District,1,Astropecten californicus,none,1.0,none,no,,none,1.0,none,no,,True,True,True,True,True
+191,B18-10914,none,Orange County Sanitation District,1,Luidia foliolata,none,3.0,none,no,"SAMPLE,V-3",none,3.0,none,no,"SAMPLE,V-3",True,True,True,True,True
+192,B18-10914,none,Orange County Sanitation District,1,Pleurobranchaea californica,none,1.0,none,no,,none,1.0,none,no,,True,True,True,True,True
+193,B18-10914,none,Orange County Sanitation District,1,Lytechinus pictus,none,96.0,none,no,,none,96.0,none,no,,True,True,True,True,True
+194,B18-10914,none,Orange County Sanitation District,1,Dendronotus venustus,none,1.0,none,no,"SAMPLE,V-1",none,1.0,none,no,"SAMPLE,V-1",True,True,True,True,True
+195,B18-10914,none,Orange County Sanitation District,1,Telesto sp,none,6.0,none,no,"SAMPLE,V-1",none,6.0,none,no,"SAMPLE,V-1 colonial",True,True,True,True,False
+196,B18-10262,none,Orange County Sanitation District,1,Telesto sp,none,10.0,none,no,,none,10.0,none,no,,True,True,True,True,True

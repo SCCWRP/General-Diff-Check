@@ -1,0 +1,14 @@
+,stationid,sampleid,samplingorganization,trawlnumber,invertspecies,abundancequalifier_x,abundance_x,anomaly_x,diversityindexexclude_x,comments_x,record_exists_x,abundancequalifier_y,abundance_y,anomaly_y,diversityindexexclude_y,comments_y,record_exists_y
+201,B18-10222,none,Orange County Sanitation District,1.0,Crangon nigricauda,,,,,,,none,36.0,none,no,,True
+202,B18-10226,none,Orange County Sanitation District,1.0,Philine auriformis,,,,,,,none,1.0,none,no,,True
+203,B18-10262,none,Orange County Sanitation District,1.0,Cymothoidae,,,,,,,none,1.0,none,no,,True
+204,B18-10344,none,Orange County Sanitation District,2.0,Octopus rubescens,,,,,,,none,3.0,none,no,,True
+205,B18-10344,none,Orange County Sanitation District,2.0,Pandalus platyceros,,,,,,,none,1.0,none,no,,True
+206,B18-10346,none,Orange County Sanitation District,1.0,Neocrangon zacae,,,,,,,none,1.0,none,no,"SAMPLE,V-1",True
+207,B18-10973,none,Orange County Sanitation District,1.0,Octopus rubescens,,,,,,,none,8.0,none,no,,True
+208,B18-10973,none,Orange County Sanitation District,1.0,Neocrangon resima,,,,,,,none,8.0,none,no,,True
+209,B18-10314,none,Orange County Sanitation District,1.0,Brisaster townsendi,,,,,,,none,4.0,none,no,,True
+210,B18-10345,none,Orange County Sanitation District,1.0,Spatangus californicus,,,,,,,none,2.0,none,no,,True
+211,B18-10345,none,Orange County Sanitation District,1.0,Brisaster sp,,,,,,,none,14.0,none,no,,True
+212,,,,,nan,,,,,,,,,,,,True
+213,,,,,nan,,,,,,,,,,,,True
