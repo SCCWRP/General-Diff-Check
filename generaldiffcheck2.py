@@ -9,10 +9,8 @@ def compare_dataframes(df1, df2):
         print('\n')
    
     print("\n\n\n\n\n")
-    print("The following are dupliacte records in dataframe 2")
-    for row in df2[df2.duplicated()==True].iterrows():
-        print(row)
-        print('\n')
+    print("The following are duplicate records in dataframe 2")
+    print(df2[df2.duplicated()==True])
 
     print("\n\n\n\n\n")
     if set(df1.columns) != set(df2.columns):
@@ -34,18 +32,13 @@ def compare_dataframes(df1, df2):
     in2not1 = pd.merge(df1, df2, on = mergingcols, how = 'right', suffixes = ('_1','_2'))
     in2not1 = in2not1[in2not1.record_exists_1.isnull()]
 
-    print("The following record is in only the first dataframe")
-    for row in in1not2.iterrows():
-        print(row)
-        print('\n')
-
+    print("The following records are in only the first dataframe")
+    print(in1not2)
     print("\n\n\n\n\n")
 
 
     print("The following record is in only the second dataframe")
-    for row in in2not1.iterrows():
-        print(row)
-        print('\n')
+    print(in2not1)
 
     
     
