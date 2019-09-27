@@ -15,7 +15,7 @@ sqlcommand = pd.read_sql("SELECT * FROM lu_station",eng)
 
 
 
-
+'''
 # bring in the stations completeness file - we are checking to see which areaweight fields are filled 
 df = pd.ExcelFile('/Users/pauls/Desktop/Projects/Bight18/FishInvert/OCSD/fish1bio.xlsx') 
 df_tab_names = df.sheet_names 
@@ -25,6 +25,7 @@ df1 = df.parse('Sheet1')
 df = pd.ExcelFile('/Users/pauls/Desktop/Projects/Bight18/FishInvert/OCSD/fish2bio.xlsx') 
 df_tab_names = df.sheet_names 
 df2 = df.parse('Sheet1')
+'''
 
 def compare_dataframes(df1, df2):
     mergingcols = ['stationid','sampleid','sampledate','samplingorganization','trawlnumber','fishspecies','sizeclass','abundancequalifier','abundance','anomaly','diversityindexexclude','Comments']
