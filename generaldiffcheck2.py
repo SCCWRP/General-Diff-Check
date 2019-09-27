@@ -7,6 +7,14 @@ from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy import text
 import csv
 import xlrd
+# I create engine to read into the database
+eng = create_engine("postgresql://smcread:1969$Harbor@192.168.1.17:5432/smc")
+#Assign panda dataframes from the tables in SQL server 
+sqlcommand = pd.read_sql("SELECT * FROM lu_station",eng)
+
+
+
+
 
 # bring in the stations completeness file - we are checking to see which areaweight fields are filled 
 df = pd.ExcelFile('/Users/pauls/Desktop/Projects/Bight18/FishInvert/OCSD/fish1bio.xlsx') 
