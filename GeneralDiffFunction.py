@@ -1,18 +1,26 @@
 import pandas as pd
-
+from sqlalchemy import create_engine
+import copy
 #This is the path of data file 1
 #df1 = pd.read_excel("P:/PartTimers/DuyNguyen/Python Practice/pythonpractice/unittest1.xlsx")
-df1 = pd.read_excel("sampledata/Bight18_Trawl_Data_1_reformatted.xlsx", sheet_name = 'trawlinvertebrateabundance')
+#df1 = pd.read_excel("sampledata/Bight18_Trawl_Data_1_reformatted.xlsx", sheet_name = 'trawlinvertebrateabundance')
 
-df1.invertspecies = df1.invertspecies.apply(lambda x: str(x).strip())
+#df1.invertspecies = df1.invertspecies.apply(lambda x: str(x).strip())
 
 
 #This is the path of data file 2
 #df2 = pd.read_excel("P:/PartTimers/DuyNguyen/Python Practice/pythonpractice/unittest2.xlsx")
-df2 = pd.read_excel("sampledata/Bight18_Trawl_Data_2_reformatted.xlsx", sheet_name = 'trawlinvertebrateabundance')
-df2.invertspecies = df2.invertspecies.apply(lambda x: str(x).strip())
+#df2 = pd.read_excel("sampledata/Bight18_Trawl_Data_2_reformatted.xlsx", sheet_name = 'trawlinvertebrateabundance')
+#df2.invertspecies = df2.invertspecies.apply(lambda x: str(x).strip())
+eng = create_engine("postgresql://smcread:1969$Harbor@192.168.1.17:5432/smc")
+csci_core = pd.read_sql("SELECT * FROM csci_core",eng)
+tmp_csci_core = pd.read_sql("SELECT * FROM tmp_csci_core",eng)
 
-
+columns_to_drop = ['objectid','mmi','origin_lastupdatedate','globalid','created_user','created_date','last_edited_user','last_edited_date','login_email','login_agency','login_owner','login_year','login_project'
+                   ,'samplemonth','sampleday','sampleyear']
+csci_core.drop(columns_to_drop,axis=1,inplace= True )
+tmp_csci_core.drop(columns_to_drop,axis=1,inplace= True )
+columns_to_merge = csci_core.columns
 
 def compare_dataframes(df1,df2,mergingcolumns):
     #df1 is the fist dataframe, df2 is the second dataframe, mergingcolumns: the columns we are gonna merge them on
@@ -33,7 +41,7 @@ def compare_dataframes(df1,df2,mergingcolumns):
     duplicateRowsDF1.to_csv("output/duplicaterowsDF1.csv")
     
     #Find the duplicates in data 2 
-    #print('These are the duplicates in 2')
+    print('These are the duplicates in 2')
     duplicateRowsDF2 = df2[df2.duplicated(subset = mergingcolumns)]
     duplicateRowsDF2.to_csv("output/duplicaterowsDF2.csv")
 
@@ -74,15 +82,24 @@ def compare_dataframes(df1,df2,mergingcolumns):
             how = 'inner',
             suffixes = ('_1','_2')
         )
-
+#I create a new variable, call this OriginalMerged. This variable does not contain the Check column
+    #OriginalMerged = merged 
     #I drop the duplicate rows, keep the first occurence
     for colname in df1.columns:
         if colname not in mergingcolumns:
-            print("merged")
-            print(merged)
-            merged[str(colname) + " Check"] = merged.apply(lambda x: (x[str(colname) + '_1'] == x[str(colname) + '_2']) | ((pd.isna(x[str(colname) + '_1'])) & (pd.isna(x[str(colname) + '_2']))), axis=1)
-    
+            #print(colname)
+            merged[str(colname) + "_Check"] = merged.apply(lambda x: (x[str(colname) + '_1'] == x[str(colname) + '_2']) | ((pd.isna(x[str(colname) + '_1'])) & (pd.isna(x[str(colname) + '_2']))), axis=1)
+            #return merged    
             
+            #This gives me all columns that contain the word "_Check"
+            #Merged = merged.filter(like ='_Check')
+            
+            #I want to test if I can sum all the columns. Since there are 40 columns, if they are all True, the result should be 40
+            #Merged['sumofcheck']= Merged.sum(axis =0)
+            
+            #I want to add the column 'sumofcheck' to the OriginalMerged, and maybe filter it based on the sumofcheck column 
+            #to simplify the report. 
+       
            # writer = pd.ExcelWriter('P:\PartTimers\DuyNguyen\Python Practice\pythonpractice\GeneralDiffCheck.xlsx', engine = 'xlsxwriter')
             #merged.to_excel(writer, sheet_name = 'Check for values')
             #In1notIn2.to_excel(writer, sheet_name = 'In Set 1 not in Set 2 list')
@@ -90,11 +107,30 @@ def compare_dataframes(df1,df2,mergingcolumns):
             #writer.save()
             #writer.close()    
             
-        
             #merged.to_excel('P:\PartTimers\DuyNguyen\Python Practice\pythonpractice\GeneralDiffCheck.xlsx')
             #print("This is the table where we show which values are mismatched")
             #print(merged)
+            
+            
+    # Now we are going to work on arranging the columns in a way that it is easy to compare the values.
+    ordered_columns = []
+    for col in [re.sub("_\d","",str(x)) for x in merged.columns]:
+        print(col)
+        if col in mergingcolumns:
+            ordered_columns.append(col)
+        elif bool(re.search("_Check", str(col))):
+            ordered_columns.append(col)
+        else:
+            ordered_columns.append(str(col) + "_1")
+            ordered_columns.append(str(col) + "_2")
+    
+    merged = merged[mergingcolumns + ordered_columns]
+    
+    # This exact_match column will say True if it is a match, False if not
+    #print(merged.apply(lambda x: print(x.tolist()), axis = 1))
+    merged['exact_match'] = merged.apply(lambda x: False if False in x.tolist() else True, axis = 1)
     merged.to_csv('output/mismatches.csv')
    
             
-compare_dataframes(df1,df2,['stationid','invertspecies', 'trawlnumber', 'sampleid','samplingorganization'])
+#compare_dataframes(df1,df2,['stationid','invertspecies', 'trawlnumber', 'sampleid','samplingorganization'])
+compare_dataframes(csci_core,tmp_csci_core,['sampleid','stationcode','sampledate'])
