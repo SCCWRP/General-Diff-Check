@@ -1,6 +1,7 @@
 import pandas as pd
 from sqlalchemy import create_engine
 import copy
+import re
 #This is the path of data file 1
 #df1 = pd.read_excel("P:/PartTimers/DuyNguyen/Python Practice/pythonpractice/unittest1.xlsx")
 #df1 = pd.read_excel("sampledata/Bight18_Trawl_Data_1_reformatted.xlsx", sheet_name = 'trawlinvertebrateabundance')
@@ -129,8 +130,8 @@ def compare_dataframes(df1,df2,mergingcolumns):
     # This exact_match column will say True if it is a match, False if not
     #print(merged.apply(lambda x: print(x.tolist()), axis = 1))
     merged['exact_match'] = merged.apply(lambda x: False if False in x.tolist() else True, axis = 1)
-    merged.to_csv('output/mismatches.csv')
+    merged.to_csv('output/mismatches2.csv')
    
             
 #compare_dataframes(df1,df2,['stationid','invertspecies', 'trawlnumber', 'sampleid','samplingorganization'])
-compare_dataframes(csci_core,tmp_csci_core,['sampleid','stationcode','sampledate'])
+compare_dataframes(csci_core,tmp_csci_core,['sampleid'])
