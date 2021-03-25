@@ -85,7 +85,7 @@ def compare_and_highlight(df_origin,df_modified,pkey_columns):
     modified_records.replace("", np.NaN, inplace = True)
 
     #Create the list of columns to loop
-    loopcols = [col for col in user_data.columns if col not in mergingcols]
+    loopcols = [col for col in df_origin.columns if col not in mergingcols]
 
     #Adding the "same" column to modified_records
     for col in loopcols:
@@ -96,7 +96,7 @@ def compare_and_highlight(df_origin,df_modified,pkey_columns):
 
     #Reorder the columns in modified_records for easy reading. 
     modified_records = modified_records.sort_index(axis = 1)
-    ordered_columns = mergingcols + [col for col in modified_records.columns if col not in mergingcols]
+    ordered_columns = [mergingcols] + [col for col in modified_records.columns if col not in mergingcols]
     modified_records = modified_records[ordered_columns]
     modified_records.drop(columns = ['change_type'],inplace = True)
 
@@ -147,15 +147,17 @@ def compare_and_highlight(df_origin,df_modified,pkey_columns):
 
     # after grabbing coordinates of what we need, drop that "same" column
         modified_records.drop(col, axis = 1, inplace = True)
-    writer = pd.ExcelWriter("MODIFIED.xlsx", engine = 'xlsxwriter')
+    writer = pd.ExcelWriter("CHANGES.xlsx", engine = 'xlsxwriter')
 
-    modified_records.to_excel(writer, sheet_name = "modified",index = False)
-
+    modified_records.to_excel(writer, sheet_name = "Modified",index = False)
+    add_records.to_excel(writer, sheet_name = "Addition", index = False)
+    delete_records.to_excel(writer, sheet_name = "Deletion", index = False)
+    
     workbook = writer.book
 
     color = workbook.add_format({'bg_color':'#FF0000'})
 
-    worksheet = writer.sheets["modified"]
+    worksheet = writer.sheets["Modified"]
 
  
 
